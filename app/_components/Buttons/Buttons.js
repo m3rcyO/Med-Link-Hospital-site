@@ -1,13 +1,23 @@
+
 import React from 'react'
 
-function Button({ text }) {
+function Buttons({ text }) {
     return (
-        <button className='py-2 px-2 rounded-lg font-bold border-[1px] border-customTeal
-         bg-white hover:bg-customTeal text-customTeal hover:text-white'>{text}
-        </button >
-
-
+        <button className={`py-2 px-2 rounded-lg font-proxima border-[1px] text-bold cursor-pointer ${text === "Contact Now" ? "bg-customTeal hover:bg-white" : "bg-white text-customTeal hover:bg-customTeal hover:text-white font-bold border-customTeal"}`}>
+            {text}
+        </button>
     )
 }
 
-export default Button
+export default Buttons
+
+
+
+
+
+
+
+
+
+
+

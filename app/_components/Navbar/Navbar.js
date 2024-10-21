@@ -1,38 +1,60 @@
+"use client";
+
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import logo from './logo.webp'
 import Buttons from '../Buttons/Buttons'
-function Navbar() {
-    return (
-        <nav className='bg-white lg:absolute lg:left-0 lg:top-0 lg:right-0 lg:mx-auto lg:my-5 flex items-center p-2 justify-between max-w-6xl rounded-md font-proxima text-black font-bold py-2 z-50 px-5'>
+import { useState } from 'react';
+import { FaBars } from "react-icons/fa6";
+import { FaXmark } from "react-icons/fa6";
 
-            <Image src={logo} width={150} />
-            <ul className="flex list-none gap-9 items-center px-7">
-                <li>
-                    <Link href="/">
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/about">
-                        About
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/services">
-                        Services
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/contact">
-                        Testimonial
-                    </Link>
-                </li>
-            </ul>
-            <Buttons text="Contact Now" />
-        </nav>
+export default function Navbar() {
+    const [display, setDisplay] = useState(false);
+
+    return (
+        <header className='bg-white px-3 py-3 relative'>
+            <div className='flex items-center justify-between'>
+                <Image src={logo} width={150} />
+                <div style={{ color: 'green' }} className='lg:hidden'>
+                    {!display ? (
+                        <FaBars onClick={() => setDisplay(true)} size={30} />
+                    ) : (<FaXmark onClick={() => setDisplay(false)} size={30} />
+                    )}
+                </div>
+                <nav className={`w-full bg-white absolute left-0 top-[62px] cursor-pointer lg:flex lg:relative
+                lg:top-0 lg:items-center lg:justify-between gap-10 lg:mx-auto lg:my-5
+                ${!display ? "hidden" : ""}
+                    `}>
+                    <ul className="flex flex-col list-none py-4 px-7 text-black font-domaine 
+                    cursor-pointer lg:flex-row lg:absolute lg:items-center gap-10 ">
+                        <li className='hover:text-customTeal'>
+                            <Link href="/">
+                                Home
+                            </Link>
+                        </li>
+                        <li className='hover:text-customTeal'  >
+                            <Link href="/about">
+                                About
+                            </Link>
+                        </li>
+                        <li className='hover:text-customTeal'  >
+                            <Link href="/services">
+                                Services
+                            </Link>
+                        </li>
+                        <li className='hover:text-customTeal' >
+                            <Link href="/contact">
+                                Testimonial
+                            </Link>
+                        </li>
+                        <Buttons text="Contact" />
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header >
     );
 }
 
-export default Navbar;
