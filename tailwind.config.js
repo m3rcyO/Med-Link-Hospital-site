@@ -10,6 +10,8 @@ module.exports = {
       fontFamily: {
         proxima: ['var(--header-font)'],
         domaine: ['var(--text-font)'],
+        domaineBold: ['--textBold-font'],
+        proximaBold: ['--headerBold-font']
       },
       colors: {
         customGreen: '#005350',

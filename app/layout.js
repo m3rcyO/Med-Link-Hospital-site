@@ -13,13 +13,25 @@ const domaine = localFont({
   variable: "--text-font",
   display: 'swap'
 
+});
+
+const domaineBold = localFont({
+  src: "./fonts/TestDomaineDisplay-Bold-BF66174a223c3e2.otf",
+  variable: "--textBold-font",
+  display: 'swap'
+})
+
+const proximaBold = localFont({
+  src: "./fonts/Proxima Nova Alt Bold.otf",
+  variable: "--headerBold-font",
+  display: 'swap'
 })
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${proxima.variable} ${domaine.variable} antialiased`}>
-        <Navbar />
+      <body className={`${proxima.variable} ${domaine.variable} antialiased relative`}>
+        <Navbar className="z-20 " />
         {children}
       </body>
     </html >
