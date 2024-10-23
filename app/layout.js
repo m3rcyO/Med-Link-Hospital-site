@@ -30,8 +30,8 @@ const proximaBold = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${proxima.variable} ${domaine.variable} antialiased relative`}>
-        <Navbar className="z-20 " />
+      <body className={`${proxima.variable} ${domaine.variable} antialiased`}>
+        <Navbar className="z-20 relative" />
         {children}
       </body>
     </html >
