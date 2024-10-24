@@ -23,3 +23,26 @@ body{
   z-index: 2;
 }
 
+.section-text{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 15px;
+  
+  
+}
+.section-list li::before{
+  content: counter(item, decimal-leading-zero);
+  counter-increment: item;
+  font-size: 2rem;
+  position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #07edc1;
+}
+.section-list{
+  counter-reset: item;
+}
