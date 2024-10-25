@@ -5,6 +5,7 @@ import "./globals.css";
 import Stats from './_components/Stats/Stats';
 import Section from './_components/Section/Section';
 import Services from './_components/Services/Services';
+import Faq from './_components/Faq/Faq';
 
 function page() {
   return (
@@ -32,6 +33,7 @@ function page() {
       lg:pt-5 lg:text-4xl'>See what partnering with Med-Link can do for you </h1>
       <Services className="bg-[#F1F7F6]" />
       <Section />
+      <Faq />
 
     </>
   );
