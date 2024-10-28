@@ -50,3 +50,15 @@ body{
   font-size: 1rem;
 
 }
+.underline-text::after{
+content: '';
+display: block;
+width: 20%;
+border-bottom: 4px solid skyblue;
+
+}
+@media (min-width: 1024px) {
+  .underline-text::after{
+    width: 6%;
+  }
+}
