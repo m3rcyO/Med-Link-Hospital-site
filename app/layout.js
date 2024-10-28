@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import Navbar from "./_components/Navbar/Navbar";
-import "./globals.css";
+import "./globals.css"
+import Footer from "./_components/Footer/Footer";
+
 
 const proxima = localFont({
   src: "./fonts/ProximaNova-Regular.otf",
@@ -32,7 +34,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${proxima.variable} ${domaine.variable} antialiased`}>
         <Navbar className="z-20 relative" />
-        {children}
+        <main>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html >
   );

@@ -5,7 +5,7 @@ export const services = [
         name: "Employers",
         imageUrl: "https://res.cloudinary.com/dlerylpi4/image/upload/v1729779049/employers_x0vzo6.svg",
         heading: "For Employers",
-        body: "Build a heathier, more productive workforce by providing in-depth care from family planning to midlife."
+        body: "Build a heathier, more productive workforce by providing in-depth care to workers in need."
     },
     {
         id: 2,

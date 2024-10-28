@@ -35,7 +35,7 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal'  >
-                                <Link href="/about">
+                                <Link href="/About">
                                     About
                                 </Link>
                             </li>
