@@ -46,3 +46,7 @@ body{
 .section-list{
   counter-reset: item;
 }
+.bullet li::marker{
+  font-size: 1rem;
+
+}

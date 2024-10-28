@@ -40,12 +40,12 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal'  >
-                                <Link href="/services">
+                                <Link href="/Service">
                                     Services
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal' >
-                                <Link href="/contact">
+                                <Link href="/Testimonial">
                                     Testimonial
                                 </Link>
                             </li>
