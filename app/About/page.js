@@ -5,6 +5,8 @@ import Image from 'next/image'
 import Buttons from '../_components/Buttons/Buttons'
 import { RiCheckboxMultipleLine } from "react-icons/ri";
 import Departments from '../_components/Departments/Departments'
+import { FaQuoteLeft } from "react-icons/fa";
+import Subscribe from '../_components/Subscribe/Subscribe'
 
 export default function page() {
     return (
@@ -46,6 +48,26 @@ export default function page() {
                 </div>
             </div>
             <Departments />
+            <div className='relative h-[70vh] lg:h-[91vh]'>
+                <Image
+                    src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730300901/empty-modern-arms-crossed-corporate-physician_pfqhw8.jpg"
+                    height={600}
+                    width={1500}
+                    className='object-cover w-full h-full'
+                />
+
+                <div className="absolute inset-0 bg-black opacity-50"></div>
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 lg:px-0">
+                    <FaQuoteLeft color='white' size={32} className='mb-4' />
+                    <p className='text-white font-domaineBold text-xl lg:text-2xl max-w-3xl'>
+                        Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided.
+                    </p>
+                    <p className='text-line-two text-white text-lg italic'>
+                        Paracelsus
+                    </p>
+                </div>
+            </div>
+            <Subscribe />
         </div>
     )
 }
