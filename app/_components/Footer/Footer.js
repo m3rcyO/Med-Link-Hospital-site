@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="flex-1 mb-6 md:mb-0 lg:ml-24">
                     <h3 className="text-xl font-bold mb-3">Quick Links</h3>
                     <ul className="text-white space-y-2">
-                        <li><a href="/about" className="hover:text-customTeal">About Us</a></li>
+                        <li><a href="/About" className="hover:text-customTeal">About Us</a></li>
                         <li><a href="/doctors" className="hover:text-customTeal">Our Doctors</a></li>
                         <li><a href="/services" className="hover:text-customTeal">Services</a></li>
                         <li><a href="/contact" className="hover:text-customTeal">Contact</a></li>

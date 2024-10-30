@@ -55,10 +55,19 @@ content: '';
 display: block;
 width: 20%;
 border-bottom: 4px solid skyblue;
+margin: 5px;
 
 }
 @media (min-width: 1024px) {
   .underline-text::after{
     width: 6%;
   }
+}
+
+.text-line::after{
+  content: '';
+  display: block;
+  border-bottom: 2px solid skyblue;
+  width: 15%;
+  margin: 8px auto;
 }
