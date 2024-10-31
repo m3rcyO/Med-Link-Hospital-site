@@ -6,7 +6,7 @@ const Card = ({ name, imageUrl, heading, body }) => {
     return (
         <div className="w-[340px] h-[360px] bg-white m-5 rounded-md pb-10 shadow-md mb-10 lg:mb-0">
             <div className="">
-                <Image src={imageUrl} alt="{name}" width={360} height={200} className="rounded-md w-[340px] h-[200px] object-cover" />
+                <Image src={imageUrl} alt={name} width={360} height={200} className="rounded-md w-[340px] h-[200px] object-cover" />
             </div>
             <div className="p-5 flex flex-col justify-center gap-2">
                 <h2 className="text-2xl font-proxima font-bold"> {heading} </h2>

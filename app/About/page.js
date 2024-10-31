@@ -7,6 +7,7 @@ import { RiCheckboxMultipleLine } from "react-icons/ri";
 import Departments from '../_components/Departments/Departments'
 import { FaQuoteLeft } from "react-icons/fa";
 import Subscribe from '../_components/Subscribe/Subscribe'
+import Doctors from '../_components/Doctors/Doctors'
 
 export default function page() {
     return (
@@ -68,6 +69,10 @@ export default function page() {
                 </div>
             </div>
             <Subscribe />
+            <section id='our-doctors'>
+                <Doctors />
+            </section>
+
         </div>
     )
 }
