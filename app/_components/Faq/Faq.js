@@ -33,7 +33,7 @@ export default function Faq() {
         }
     ]
     return (
-        <div className="faq-container bg-[#F1F7F6] px-2 py-12 lg:flex lg:flex-col lg:items-center lg:h-[140vh]">
+        <div className="faq-container bg-[#f5fbff] px-2 py-12 lg:flex lg:flex-col lg:items-center lg:h-[140vh]">
             <h1 className="font-proxima text-2xl lg:text-4xl text-center text-customGreen font-bold m-4"> Frequently Asked Questions </h1>
             {faqData.map((item, index) => (
                 <div key={index} className="faq-item font-domaine border mb-2 bg-white p-7  flex flex-col

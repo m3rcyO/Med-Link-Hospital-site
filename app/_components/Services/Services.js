@@ -15,7 +15,7 @@ const ServiceCard = ({ name, imageUrl, heading, body }) => {
 
 const Services = () => {
     return (
-        <div className="bg-[#F1F7F6] p-5 lg:p-10 flex flex-col items-center justify-center lg:flex-row 
+        <div className="bg-[#F5fbff] p-5 lg:p-10 flex flex-col items-center justify-center lg:flex-row 
         lg:h-screen">
             {services.map((service) => (
                 <ServiceCard

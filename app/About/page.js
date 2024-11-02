@@ -12,7 +12,7 @@ import Doctors from '../_components/Doctors/Doctors'
 export default function page() {
     return (
         <div className='relative'>
-            <Pager />
+            <Pager page="About Us" text="About Us" />
             <div className='bg-white h-[130vh] lg:h-[130vh] lg:flex lg:px-8 lg:pt-10'>
                 <div className='lg:flex-1 lg:relative'>
                     <Image src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730133729/Home_wimhzk.jpg" width={600}

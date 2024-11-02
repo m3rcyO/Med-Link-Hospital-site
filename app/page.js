@@ -31,9 +31,9 @@ function page() {
           </div>
         </div>
       </div>
-      <h1 className='font-domaineBold bg-[#F1F7F6] text-center text-[30px] text-[#263633] p-4 lg:p-0
+      <h1 className='font-domaineBold bg-[#F5fbff] text-center text-[30px] text-[#263633] p-4 lg:p-0
       lg:pt-20 lg:text-5xl lg:text-center'>See what partnering with Med-Link can do for you </h1>
-      <Services className="bg-[#F1F7F6]" />
+      <Services className="bg-[#F5fbff]" />
       <h1 className='text-customGreen font-domaine text-4xl lg:text-6xl text-center pt-10'> Our Vision </h1>
       <Section
         imageUrl="https://res.cloudinary.com/dlerylpi4/image/upload/v1729970503/sectionPic_uhuswt.jpg"

@@ -45,11 +45,11 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal' >
-                                <Link href="/Testimonial">
-                                    Testimonial
+                                <Link href="/Contact">
+                                    Contact
                                 </Link>
                             </li>
-                            <Buttons text="Contact" />
+                            <Buttons text="Request a Call" />
                         </ul>
                     </nav>
 
