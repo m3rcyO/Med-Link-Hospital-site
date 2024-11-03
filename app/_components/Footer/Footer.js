@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="bg-customGreen text-white p-8 pt-10 font-domaine">
             <div className="container mx-auto flex flex-col md:flex-row md:justify-between px-5 lg:px-0">
-                {/* About Med-Link */}
+
                 <div className="flex-1 mb-6 md:mb-0">
                     <h3 className="text-xl font-bold mb-3">About Med-Link</h3>
                     <p className="text-white">
@@ -18,8 +18,8 @@ const Footer = () => {
                     <ul className="text-white space-y-2">
                         <li><a href="/About" className="hover:text-customTeal">About Us</a></li>
                         <li><a href="/About#our-doctors" className="hover:text-customTeal">Our Doctors</a></li>
-                        <li><a href="/services" className="hover:text-customTeal">Services</a></li>
-                        <li><a href="/contact" className="hover:text-customTeal">Contact</a></li>
+                        <li><a href="/Services" className="hover:text-customTeal">Services</a></li>
+                        <li><a href="/Contact" className="hover:text-customTeal">Contact</a></li>
                     </ul>
                 </div>
 

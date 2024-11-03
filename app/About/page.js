@@ -16,8 +16,9 @@ export default function page() {
             <div className='bg-white h-[130vh] lg:h-[130vh] lg:flex lg:px-8 lg:pt-10'>
                 <div className='lg:flex-1 lg:relative'>
                     <Image src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730133729/Home_wimhzk.jpg" width={600}
-                        height={600} className='lg:w-[350px] lg:h-[400px] lg:object-cover' />
-                    <Image src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730133759/surgery_ki4i4g.jpg" width={300} height={500} className='hidden lg:block lg:absolute lg:top-40 lg:right-20' />
+                        height={600} alt='image of doctor and patient' className='lg:w-[350px] lg:h-[400px] lg:object-cover' />
+                    <Image src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730133759/surgery_ki4i4g.jpg"
+                        alt='image of doctors in surgery' width={300} height={500} className='hidden lg:block lg:absolute lg:top-40 lg:right-20' />
                 </div>
                 <div className='p-5 lg:flex-1'>
                     <p className='underline-text font-[600px] text-2xl font-domaine my-8'> About US </p>
@@ -54,6 +55,7 @@ export default function page() {
                     src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730300901/empty-modern-arms-crossed-corporate-physician_pfqhw8.jpg"
                     height={600}
                     width={1500}
+                    alt='image of doctor smiling'
                     className='object-cover w-full h-full'
                 />
 

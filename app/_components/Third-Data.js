@@ -16,7 +16,7 @@ export const doctors = [
     {
         id: 3,
         name: "Image of Doctor",
-        imageUrl: " https://res.cloudinary.com/dlerylpi4/image/upload/v1730365280/medium-shot-smiley-doctor-with-coat_so3isx.jpg",
+        imageUrl: "https://res.cloudinary.com/dlerylpi4/image/upload/v1730365280/medium-shot-smiley-doctor-with-coat_so3isx.jpg",
         heading: "Dr. Amina Bello",
         body: "Gynecology"
     },
@@ -24,7 +24,7 @@ export const doctors = [
     {
         id: 4,
         name: "Image of Doctor",
-        imageUrl: " https://res.cloudinary.com/dlerylpi4/image/upload/v1730365301/doctor-posing-confident-his-cabinet-near-window-african-american-doctor-his-work-with-patients-explaining-recipes-drug-daily-hard-work-health-lives-saving-epidemic_dk0cn9.jpg",
+        imageUrl: "https://res.cloudinary.com/dlerylpi4/image/upload/v1730365301/doctor-posing-confident-his-cabinet-near-window-african-american-doctor-his-work-with-patients-explaining-recipes-drug-daily-hard-work-health-lives-saving-epidemic_dk0cn9.jpg",
         heading: "Dr. Marcus Ayodele",
         body: "Oncology",
     },

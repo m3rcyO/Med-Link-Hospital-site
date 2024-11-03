@@ -39,6 +39,7 @@ function page() {
         imageUrl="https://res.cloudinary.com/dlerylpi4/image/upload/v1729970503/sectionPic_uhuswt.jpg"
         heading="Compassionate Care, Anytime, Anywhere"
         description="At Med-Link, we are dedicated to providing seamless access to quality healthcare by connecting patients with experienced doctors wherever they are. Our mission is to ensure that compassionate, personalized medical support is always within reach."
+
       />
       <Section
         imageUrl="https://res.cloudinary.com/dlerylpi4/image/upload/v1729970780/pexels-olly-3952375_j1pig9.jpg"
