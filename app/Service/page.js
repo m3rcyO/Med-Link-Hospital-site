@@ -2,6 +2,7 @@ import React from 'react'
 import Pager from '../_components/Pager/Pager'
 import Video from '../_components/Video/Video'
 import Servic from '../_components/Services-two/Services-two'
+import TestimonialSection from '../_components/Testimonial/Testimonial'
 
 
 function page() {
@@ -10,6 +11,7 @@ function page() {
             <Pager page="Our Services" text="Services" />
             <Video />
             <Servic />
+            <TestimonialSection />
         </div>
     )
 }
