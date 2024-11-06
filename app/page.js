@@ -11,7 +11,7 @@ import Faq from './_components/Faq/Faq';
 function page() {
   return (
     <>
-      <div className='lg:flex lg:flex-row-reverse lg:h-[125vh]'>
+      <div className='lg:flex lg:flex-row-reverse lg:h-[125vh] lg:pb-20'>
 
         <div className='relative lg:flex-1'>
           <Image src={homePic} className='h-full  w-full object-cover ' />

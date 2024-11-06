@@ -44,7 +44,7 @@ const TestimonialSection = () => {
     const { imageUrl, text, person } = testimonials[currentIndex];
 
     return (
-        <div className="flex flex-col lg:flex-row items-center bg-white p-8 lg:p-4 py-20 lg:h-[750px]">
+        <div className="flex flex-col lg:flex-row items-center bg-white p-8 lg:p-4 py-20 lg:py-5 lg:h-[750px]">
 
             <div className="w-full lg:flex-1 flex justify-center">
                 <Image

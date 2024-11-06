@@ -11,7 +11,7 @@ import Doctors from '../_components/Doctors/Doctors'
 
 export default function page() {
     return (
-        <div className='relative'>
+        <div className='relative pb-10'>
             <Pager page="About Us" text="About Us" />
             <div className='bg-white h-[130vh] lg:h-[130vh] lg:flex lg:px-8 lg:pt-10'>
                 <div className='lg:flex-1 lg:relative'>
@@ -50,7 +50,7 @@ export default function page() {
                 </div>
             </div>
             <Departments />
-            <div className='relative h-[70vh] lg:h-[91vh]'>
+            <div className='relative h-[70vh] lg:h-[91vh] '>
                 <Image
                     src="https://res.cloudinary.com/dlerylpi4/image/upload/v1730300901/empty-modern-arms-crossed-corporate-physician_pfqhw8.jpg"
                     height={600}
@@ -70,10 +70,10 @@ export default function page() {
                     </p>
                 </div>
             </div>
-            <Subscribe />
             <section id='our-doctors'>
                 <Doctors />
             </section>
+            <Subscribe />
 
         </div>
     )
