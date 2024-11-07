@@ -42,7 +42,7 @@ const Form = () => {
                 </div>
 
                 <form className="flex flex-col gap-6 font-proxima"
-                    action="https://formsubmit.co/62cd6fc98e8c614d9365d3357d536f96.com"
+                    action="https://formsubmit.co/62cd6fc98e8c614d9365d3357d536f96"
                     method="POST"
                 >
                     <input
