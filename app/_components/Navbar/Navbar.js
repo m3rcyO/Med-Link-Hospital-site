@@ -35,21 +35,23 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal'  >
-                                <Link href="/About">
+                                <Link href="/about">
                                     About
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal'  >
-                                <Link href="/Service">
+                                <Link href="/service">
                                     Services
                                 </Link>
                             </li>
                             <li className='hover:text-customTeal' >
-                                <Link href="/Contact">
+                                <Link href="/contact">
                                     Contact
                                 </Link>
                             </li>
-                            <Buttons text="Request a Call" />
+
+                            <Buttons text="Request a Call" link="/contact#contact-form"
+                            />
                         </ul>
                     </nav>
 

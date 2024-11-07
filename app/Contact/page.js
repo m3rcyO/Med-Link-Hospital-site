@@ -9,7 +9,7 @@ function page() {
     return (
         <div className='relative'>
             <Pager page="Contact Us" text="Contact" />
-            <Form />
+            <Form id="contact-form" />
             <ContactOptions />
             <Faq />
 

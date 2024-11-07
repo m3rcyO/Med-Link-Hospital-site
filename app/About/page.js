@@ -46,7 +46,8 @@ export default function page() {
                         </li>
                     </ul>
 
-                    <Buttons text="Learn More" className="mt-5" />
+                    <Buttons text="Learn More"
+                        className="mt-5" link="/service" />
                 </div>
             </div>
             <Departments />

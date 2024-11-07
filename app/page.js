@@ -2,33 +2,38 @@ import React from 'react'
 import Image from 'next/image'
 import homePic from "./images/homePic.jpg"
 import "./globals.css";
+import { FaCalendarAlt, FaUserCheck, FaSmile } from 'react-icons/fa';
 import Stats from './_components/Stats/Stats';
 import Section from './_components/Section/Section';
 import Services from './_components/Services/Services';
 import Faq from './_components/Faq/Faq';
+import Buttons from './_components/Buttons/Buttons';
 
 
 function page() {
   return (
     <>
-      <div className='lg:flex lg:flex-row-reverse lg:h-[125vh] lg:pb-20'>
+      <div className='lg:flex lg:flex-row-reverse lg:h-[125vh]'>
 
         <div className='relative lg:flex-1'>
-          <Image src={homePic} className='h-full  w-full object-cover ' />
+          <Image src={homePic} height={500}
+            className='h-full  w-full object-cover lg:h-[690px]' />
 
           <div className="absolute inset-0 bg-black opacity-50 lg:hidden"></div>
         </div>
-        <div className='absolute inset-0 flex flex-col items-center justify-center gap-6 mx-2 mt-32 lg:relative lg:mt-0 lg:bg-customGreen lg:flex-1 lg:p-12 lg:w-full lg:m-0 lg:gap-8 lg:pb-6'>
-          <h1 className="font-domaineBold font-[900] text-4xl mx-4 text-white lg:text-left lg:text-5xl">Consult a Doctor Anytime, Anywhere</h1>
-          <p className="font-proximaBold text-[15px]  mx-2 text-white lg:text-left lg:text-[16px]">
+        <div className='absolute inset-0 flex flex-col items-center justify-center gap-6 mx-2 mt-32 lg:relative lg:mt-0
+         lg:bg-customGreen lg:flex-1 lg:p-12 lg:w-full lg:m-0 lg:gap-8 lg:pb-6'>
+          <h1 className="font-domaineBold font-[900] text-4xl mx-4 text-white text-center lg:text-left lg:text-5xl">Consult a Doctor Anytime, Anywhere</h1>
+          <p className="font-proximaBold text-[15px] text-white lg:text-left text-center lg:text-[16px]">
             Providing clinical, financial, and emotional support through the most vulnerable and joyful life stages. Proven outcomes, greater independence, and increased quality of life for high-risk individuals.
 
           </p>
           <div className='hidden lg:flex gap-20 mt-10'>
-            <Stats number='20+' label='Years of excellence' />
-            <Stats number='56+' label='Case Completed' />
-            <Stats number='100%' label='Case Satisfaction' />
+            <Stats number='20+' label='Years of excellence' icon={<FaCalendarAlt size={24} color='white' />} />
+            <Stats number='56+' label='Cases Completed' icon={<FaUserCheck size={24} color='white' />} />
+            <Stats number='100%' label='Case Satisfaction' icon={<FaSmile size={24} color='white' />} />
           </div>
+          {/* <Buttons text="Learn more" className="lg:hidden" /> */}
         </div>
       </div>
       <h1 className='font-domaineBold bg-[#F5fbff] text-center text-[30px] text-[#263633] p-4 lg:p-0

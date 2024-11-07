@@ -41,20 +41,26 @@ const Form = () => {
 
                 </div>
 
-                <form className="flex flex-col gap-6 font-proxima">
+                <form className="flex flex-col gap-6 font-proxima"
+                    action="https://formsubmit.co/62cd6fc98e8c614d9365d3357d536f96.com"
+                    method="POST"
+                >
                     <input
                         type="text"
                         placeholder="Your Name"
+                        name="name"
                         className="border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-1 focus:ring-customTeal"
                     />
                     <input
                         type="email"
                         placeholder="Your Email"
+                        name="email"
                         className="border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-1 focus:ring-customTeal"
                     />
                     <textarea
                         placeholder="Your Message"
                         rows="5"
+                        name="text"
                         className="border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-1 focus:ring-customTeal"
                     ></textarea>
 

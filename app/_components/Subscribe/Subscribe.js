@@ -16,16 +16,22 @@ function Subscribe() {
             <div className="bg-[#E0ECDE] flex flex-col justify-center items-center p-8 lg:w-4/5">
                 <RiMailSendLine size={30} className="mt-5" />
                 <h2 className="font-domaine font-bold text-3xl text-center py-4 lg:text-4xl">Subscribe to our latest news</h2>
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    className="border-b-[1px] font-bold font-proxima text-black bg-transparent border-slate-900 
+                <form
+                    action="https://formsubmit.co/d338e312a210cf124ef63a7b3dd8252e"
+                    method="POST"
+                >
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        className="border-b-[1px] font-bold font-proxima text-black bg-transparent border-slate-900 
                                focus:border-blue-500 focus:outline-none w-4/5 p-3 mb-4 lg:mt-5"
-                />
-                <button className="bg-customGreen text-white font-domaine px-8 py-3 font-bold rounded-full mt-4">
-                    Subscribe
-                </button>
+                    />
+                    <button type="submit"
+                        className="bg-customGreen text-white font-domaine px-8 py-3 font-bold rounded-full mt-4">
+                        Subscribe
+                    </button>
+                </form>
             </div>
         </div>
     );
