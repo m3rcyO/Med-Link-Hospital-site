@@ -16,7 +16,7 @@ function page() {
       <div className='lg:flex lg:flex-row-reverse lg:h-[125vh]'>
 
         <div className='relative lg:flex-1'>
-          <Image src={homePic} height={500}
+          <Image src={homePic} height={500} alt='Image of doctor smiling'
             className='h-full  w-full object-cover lg:h-[690px]' />
 
           <div className="absolute inset-0 bg-black opacity-50 lg:hidden"></div>

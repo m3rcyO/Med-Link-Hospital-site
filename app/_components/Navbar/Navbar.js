@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className='lg:mx-auto lg:my-6 lg:absolute lg:w-[1200px] lg:left-8 z-50'>
             <header className='bg-white px-3 py-3 relative lg:rounded-sm'>
                 <div className='flex items-center justify-between'>
-                    <Image src={logo} width={150} />
+                    <Image src={logo} width={150} alt="Logo" />
                     <div style={{ color: 'green' }} className='lg:hidden'>
                         {!display ? (
                             <FaBars onClick={() => setDisplay(true)} size={30} />

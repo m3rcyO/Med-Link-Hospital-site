@@ -10,7 +10,7 @@ const Form = () => {
                 <div className="flex flex-col text-center lg:text-left">
                     <h2 className="text-4xl font-bold text-customGreen mb-4 font-domaine">Got a question?</h2>
                     <p className="text-gray-600 text-lg font-proxima">
-                        We're here to help with any inquiries or support you may need. Reach out to us, and a member of our team will get back to you promptly.
+                        We are here to help with any inquiries or support you may need. Reach out to us, and a member of our team will get back to you promptly.
                     </p>
                     <ul className='flex flex-col gap-3 lg:gap-5 text-gray-500 mt-5 lg:mt-7'>
                         <li>
