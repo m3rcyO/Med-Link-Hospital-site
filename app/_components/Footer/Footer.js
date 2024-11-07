@@ -58,7 +58,7 @@ const Footer = () => {
                     <a href="https://twitter.com" className="text-gray-400 hover:text-customTeal"><FaTwitter size={24} /></a>
                     <a href="https://instagram.com" className="text-gray-400 hover:text-customTeal"><FaInstagram size={24} /></a>
                 </div>
-                <p className="text-customTeal font-bold">&copy; {new Date().getFullYear()} Med-Link. All rights reserved.</p>
+                <p className="text-customTeal font-bold">&copy; 2024 Med-Link. All rights reserved.</p>
             </div>
         </footer>
     );
